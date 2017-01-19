@@ -18,7 +18,7 @@ $(function () {
       }
     },
       messages: {
-      name: "Please enter your firstname",
+      name: "Please enter your name",
       date: "Please enter a valid date",
       email: "Please enter a valid email address",
       ip: "Please enter a valid ip"
