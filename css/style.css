@@ -1,6 +1,7 @@
 body {
   font-family: Verdana;
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .box {
@@ -8,28 +9,48 @@ body {
   margin: 50px auto;
 }
 
+.box1,
+.box2 {
+  width: 500px;
+  height: 60px;
+  background: #E37222;
+}
+
+p {
+  color: white;
+  padding: 20px;
+}
+
 form {
   padding: 20px;
   background: #062F4F;
   color: white;
 }
-form label,
+
 form input,
 form button {
   width: 100%;
-  margin-bottom: 2px;
+  margin-bottom: 20px;
   display: block;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
 }
+
 form .error {
   color: red;
 }
+
 form input {
   height: 30px;
   background: #fff;
 }
+
 form button {
   height: 30px;
+  width: 90px;
   margin-top: 10px;
+  margin-left: 360px;
   background: #B82601;
   color: white;
   cursor: pointer;
